@@ -535,7 +535,7 @@ app_main(void)
 #endif
 #ifdef CONFIG_EXAMPLE_RESOLVE_PEER_ADDR
     /* Stores the IRK */
-    ble_hs_cfg.sm_our_key_dist |= BLE_SM_PAIR_KEY_DIST_ID;
+    //ble_hs_cfg.sm_our_key_dist |= BLE_SM_PAIR_KEY_DIST_ID;
     ble_hs_cfg.sm_their_key_dist |= BLE_SM_PAIR_KEY_DIST_ID;
 #endif
 
